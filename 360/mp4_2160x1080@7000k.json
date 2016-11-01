@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "mp4_360_2160x1080@7000k",
+    "description": "MP4 for 360 - 2160x1080  at 7000kbps",
+    "container": "mp4",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "1080",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "7000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "1080p"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "hls_360_1920x960@5400k",
+    "description": "HLS for 360 - 1920x960 at 5400kbps",
+    "container": "m3u8",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "960",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "5400000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "m3u8",
+    "label": "960p"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "mp4_360_848x424@1000k",
+    "description": "MP4 for 360 - 848x424 at 1000kbps",
+    "container": "mp4",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "424",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "1000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "424p"
+  }
+}
