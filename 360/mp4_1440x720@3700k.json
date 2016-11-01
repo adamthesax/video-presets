@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "mp4_360_1440x720@3700k",
+    "description": "MP4 for 360 - 1440x720 at 3700kbps",
+    "container": "mp4",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "720",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "1000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "720p"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "providers": ["encodingcom"],
+  "preset": {
+    "name": "hls_360_848x424@1000k",
+    "description": "HLS for 360 - 848x424 at 1000kbps",
+    "container": "m3u8",
+    "profile": "Main",
+    "profileLevel": "3.1",
+    "rateControl": "VBR",
+    "video": {
+        "height": "424",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "1000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "m3u8",
+    "label": "424p"
+  }
+}
