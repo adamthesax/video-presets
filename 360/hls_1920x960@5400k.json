@@ -4,10 +4,10 @@
     "name": "hls_360_1920x960@5400k",
     "description": "HLS for 360 - 1920x960 at 5400kbps",
     "container": "m3u8",
-    "profile": "Main",
-    "profileLevel": "3.1",
     "rateControl": "VBR",
     "video": {
+        "profile": "Main",
+        "profileLevel": "3.1",
         "height": "960",
         "width": "",
         "codec": "h264",
