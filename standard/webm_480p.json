@@ -4,10 +4,10 @@
     "name": "480p_webm",
     "description": "480p webm",
     "container": "webm",
-    "profile": "Main",
-    "profileLevel": "3.1",
     "rateControl": "VBR",
     "video": {
+        "profile": "Main",
+        "profileLevel": "3.1",
         "height": "480",
         "width": "",
         "codec": "vp8",

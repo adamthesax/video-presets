@@ -4,10 +4,10 @@
     "name": "hls_360_1280x640@2300k",
     "description": "HLS for 360 - 1280x640 at 2300kbps",
     "container": "m3u8",
-    "profile": "Main",
-    "profileLevel": "3.1",
     "rateControl": "VBR",
     "video": {
+        "profile": "Main",
+        "profileLevel": "3.1",
         "height": "640",
         "width": "",
         "codec": "h264",
