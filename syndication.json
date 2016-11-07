@@ -5,7 +5,7 @@
     "description": "Profile for syndication",
     "container": "mov",
     "profile": "Main",
-    "profileLevel": "3.1",
+    "profileLevel": "4",
     "rateControl": "VBR",
     "video": {
         "height": "1080",
