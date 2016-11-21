@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "hls_360_1920x960@5400k",
     "description": "HLS for 360 - 1920x960 at 5400kbps",

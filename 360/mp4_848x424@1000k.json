@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "mp4_360_848x424@1000k",
     "description": "MP4 for 360 - 848x424 at 1000kbps",
