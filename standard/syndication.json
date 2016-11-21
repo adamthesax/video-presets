@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "1080p_synd",
     "description": "Profile for syndication",

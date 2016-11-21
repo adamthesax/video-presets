@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "240p_mp4",
     "description": "240p mp4",

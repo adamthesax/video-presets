@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "360p_hls",
     "description": "360p hls",

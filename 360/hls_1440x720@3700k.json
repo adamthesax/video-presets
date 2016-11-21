@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
     "name": "hls_360_1440x720@3700k",
     "description": "HLS for 360 - 1440x720 at 3700kbps",
