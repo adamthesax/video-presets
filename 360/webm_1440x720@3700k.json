@@ -10,14 +10,14 @@
         "profileLevel": "3.1",
         "height": "720",
         "width": "",
-        "codec": "libvpx",
+        "codec": "vp8",
         "bitrate": "1000000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
     },
     "audio": {
-        "codec": "libvorbis",
+        "codec": "vorbis",
         "bitrate": "64000"
     }
   },
