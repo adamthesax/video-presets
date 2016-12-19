@@ -1,7 +1,7 @@
 {
   "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
   "preset": {
-    "name": "480p_mp4",
+    "name": "video_480p_mp4",
     "description": "480p mp4",
     "container": "mp4",
     "rateControl": "VBR",
