@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
+  "providers": ["encodingcom","zencoder"],
   "preset": {
     "name": "video_720p_mp4",
     "description": "720p mp4",

@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
+  "providers": ["encodingcom","zencoder"],
   "preset": {
     "name": "480p_webm",
     "description": "480p webm",
