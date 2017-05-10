@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder"],
+  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder","hybrik"],
   "preset": {
     "name": "hls_360_2160x1080@7000k",
     "description": "HLS for 360 - 2160x1080 at 7000kbps",

@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder"],
+  "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
     "name": "1080p_synd",
     "description": "Profile for syndication",

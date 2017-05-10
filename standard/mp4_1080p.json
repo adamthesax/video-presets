@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder"],
+  "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
     "name": "video_1080p_mp4",
     "description": "1080p mp4",

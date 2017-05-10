@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder"],
+  "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
     "name": "360p_hls",
     "description": "360p hls",
