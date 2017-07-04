@@ -1,4 +1,4 @@
-#video-presets
+# video-presets
 
 This is the set of video transcoding preset specifications compatible with the [video-transcoding-api](https://github.com/NYTimes/video-transcoding-api) which are used by The New York Times when transcoding all videos we produce.
 
