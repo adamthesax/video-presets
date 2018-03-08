@@ -4,7 +4,7 @@
     "name": "1080p_synd",
     "description": "Profile for syndication",
     "container": "mov",
-    "profile": "Main",
+    "profile": "High",
     "profileLevel": "4",
     "rateControl": "VBR",
     "video": {
