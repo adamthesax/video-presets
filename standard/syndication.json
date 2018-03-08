@@ -4,10 +4,10 @@
     "name": "1080p_synd",
     "description": "Profile for syndication",
     "container": "mov",
-    "profile": "High",
-    "profileLevel": "4",
     "rateControl": "VBR",
     "video": {
+        "profile": "High",
+        "profileLevel": "4",
         "height": "1080",
         "width": "",
         "codec": "h264",
