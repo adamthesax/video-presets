@@ -1,26 +1,29 @@
 {
   "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
-    "name": "480p_webm",
-    "description": "480p webm",
-    "container": "webm",
+    "name": "high_video_480p_mp4",
+    "description": "480p mp4",
+    "container": "mp4",
     "rateControl": "VBR",
+    "twoPass": true,
     "video": {
+        "profile": "High",
+        "profileLevel": "4",
         "height": "480",
         "width": "",
-        "codec": "vp8",
-        "bitrate": "1500000",
+        "codec": "h264",
+        "bitrate": "3000000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
     },
     "audio": {
-        "codec": "vorbis",
+        "codec": "aac",
         "bitrate": "64000"
     }
   },
   "outputOptions": {
-    "extension": "webm",
+    "extension": "mp4",
     "label": "480p"
   }
 }

@@ -1,15 +1,16 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder","hybrik"],
+  "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
-    "name": "webm_360_1440x720@3700k",
-    "description": "WEBM for 360 - 1440x720 at 3700kbps",
+    "name": "high_480p_webm",
+    "description": "480p webm",
     "container": "webm",
     "rateControl": "VBR",
+    "twoPass": true,
     "video": {
-        "height": "720",
+        "height": "480",
         "width": "",
         "codec": "vp8",
-        "bitrate": "1000000",
+        "bitrate": "3000000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
@@ -21,6 +22,6 @@
   },
   "outputOptions": {
     "extension": "webm",
-    "label": "720p"
+    "label": "480p"
   }
 }

@@ -1,17 +1,18 @@
 {
   "providers": ["encodingcom","zencoder","hybrik"],
   "preset": {
-    "name": "video_1080p_mp4",
-    "description": "1080p mp4",
+    "name": "high_video_720p_mp4",
+    "description": "720p mp4",
     "container": "mp4",
     "rateControl": "VBR",
+    "twoPass": true,
     "video": {
-        "profile": "Main",
-        "profileLevel": "3.1",
-        "height": "1080",
+        "profile": "High",
+        "profileLevel": "4",
+        "height": "720",
         "width": "",
         "codec": "h264",
-        "bitrate": "3700000",
+        "bitrate": "5000000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
@@ -23,6 +24,6 @@
   },
   "outputOptions": {
     "extension": "mp4",
-    "label": "1080p"
+    "label": "720p"
   }
 }
