@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder","hybrik"],
+  "providers": [],
   "preset": {
     "name": "480p_webm",
     "description": "480p webm",

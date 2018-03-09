@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder","hybrik"],
+  "providers": [],
   "preset": {
     "name": "high_video_360p_mp4",
     "description": "360p mp4",

@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","zencoder","hybrik"],
+  "providers": [],
   "preset": {
     "name": "video_240p_mp4",
     "description": "240p mp4",

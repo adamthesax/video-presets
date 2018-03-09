@@ -7,7 +7,7 @@ This is the set of video transcoding preset specifications compatible with the [
 - Set up the [video-transcoding-api](https://github.com/NYTimes/video-transcoding-api) to run in some host.
 - Point the `apply_presets.sh` script to it as such:
 ```bash
-./apply_presets.sh [360|standard] http://your-transcoding-host/
+./apply_presets.sh [360|standard] http://your-transcoding-host/ <provider1> [provider2] [provider3] ... [providern]
 ```
 
 ### Result

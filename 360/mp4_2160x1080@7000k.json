@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder","hybrik"],
+  "providers": [],
   "preset": {
     "name": "mp4_360_2160x1080@7000k",
     "description": "MP4 for 360 - 2160x1080  at 7000kbps",

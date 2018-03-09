@@ -1,5 +1,5 @@
 {
-  "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder","hybrik"],
+  "providers": [],
   "preset": {
     "name": "high_webm_360_1440x720@3700k",
     "description": "WEBM for 360 - 1440x720 at 3700kbps",
