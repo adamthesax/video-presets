@@ -1,26 +1,29 @@
 {
   "providers": ["encodingcom","elementalconductor","elastictranscoder","zencoder","hybrik"],
   "preset": {
-    "name": "webm_360_1440x720@3700k",
-    "description": "WEBM for 360 - 1440x720 at 3700kbps",
-    "container": "webm",
+    "name": "high_mp4_360_1440x720@3700k",
+    "description": "MP4 for 360 - 1440x720 at 3700kbps",
+    "container": "mp4",
     "rateControl": "VBR",
+    "twoPass": true,
     "video": {
+        "profile": "High",
+        "profileLevel": "4",
         "height": "720",
         "width": "",
-        "codec": "vp8",
-        "bitrate": "1000000",
+        "codec": "h264",
+        "bitrate": "2000000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
     },
     "audio": {
-        "codec": "vorbis",
+        "codec": "aac",
         "bitrate": "64000"
     }
   },
   "outputOptions": {
-    "extension": "webm",
+    "extension": "mp4",
     "label": "720p"
   }
 }
