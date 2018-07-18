@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "high_video_1080p_mp4",
+    "description": "1080p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "High",
+        "profileLevel": "4",
+        "height": "1080",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "7400000",
+        "gopSize": "30",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "1080p"
+  }
+}
