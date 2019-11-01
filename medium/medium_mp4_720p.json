@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "medium_video_720p_mp4",
+    "description": "720p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "High",
+        "profileLevel": "4",
+        "height": "720",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "4000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "96000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "720p"
+  }
+}
