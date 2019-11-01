@@ -12,7 +12,7 @@
         "height": "480",
         "width": "",
         "codec": "h264",
-        "bitrate": "2000000",
+        "bitrate": "1600000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"

@@ -10,7 +10,7 @@
         "height": "480",
         "width": "",
         "codec": "vp8",
-        "bitrate": "2000000",
+        "bitrate": "1600000",
         "gopSize": "90",
         "gopMode": "fixed",
         "interlaceMode": "progressive"
