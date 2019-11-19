@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt01_video_360p_mp4",
+    "description": "360p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "High",
+        "profileLevel": "3.1",
+        "height": "360",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "900000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "96000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "360p"
+  }
+}

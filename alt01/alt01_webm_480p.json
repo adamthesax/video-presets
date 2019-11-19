@@ -1,0 +1,27 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt01_480p_webm",
+    "description": "480p webm",
+    "container": "webm",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "height": "480",
+        "width": "",
+        "codec": "vp8",
+        "bitrate": "1600000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "vorbis",
+        "bitrate": "96000"
+    }
+  },
+  "outputOptions": {
+    "extension": "webm",
+    "label": "480p"
+  }
+}
