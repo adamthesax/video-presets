@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt03_1080p_synd",
+    "description": "Profile for syndication",
+    "container": "mov",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "High",
+        "profileLevel": "4.2",
+        "height": "1080",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "12000000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "320000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mov",
+    "label": "1080p_synd"
+  }
+}

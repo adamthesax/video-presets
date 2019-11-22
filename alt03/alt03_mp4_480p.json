@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt03_video_480p_mp4",
+    "description": "480p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "High",
+        "profileLevel": "4",
+        "height": "480",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "1600000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "96000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "480p"
+  }
+}

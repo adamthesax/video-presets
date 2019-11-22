@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt02_video_240p_mp4",
+    "description": "240p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "twoPass": true,
+    "video": {
+        "profile": "Main",
+        "profileLevel": "3.1",
+        "height": "240",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "300000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "96000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "240p"
+  }
+}
