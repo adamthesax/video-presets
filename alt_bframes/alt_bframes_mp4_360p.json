@@ -1,0 +1,29 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt_bframes_video_360p_mp4",
+    "description": "360p mp4",
+    "container": "mp4",
+    "rateControl": "VBR",
+    "video": {
+        "profile": "Main",
+        "profileLevel": "3.1",
+        "height": "360",
+        "width": "",
+        "codec": "h264",
+        "bitrate": "900000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "bframes": "4",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "aac",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "mp4",
+    "label": "360p"
+  }
+}

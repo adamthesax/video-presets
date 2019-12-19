@@ -1,0 +1,26 @@
+{
+  "providers": [],
+  "preset": {
+    "name": "alt_bframes_480p_webm",
+    "description": "480p webm",
+    "container": "webm",
+    "rateControl": "VBR",
+    "video": {
+        "height": "480",
+        "width": "",
+        "codec": "vp8",
+        "bitrate": "1500000",
+        "gopSize": "90",
+        "gopMode": "fixed",
+        "interlaceMode": "progressive"
+    },
+    "audio": {
+        "codec": "vorbis",
+        "bitrate": "64000"
+    }
+  },
+  "outputOptions": {
+    "extension": "webm",
+    "label": "480p"
+  }
+}
