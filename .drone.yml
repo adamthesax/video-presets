@@ -1,0 +1,50 @@
+pipeline:
+  apply-dev:
+    image: node:10
+    commands:
+      - npm ci
+      - node apply_presets.js
+    environment:
+      NAMESPACE: dev
+      PROVIDERS:
+        from_secret: providers_dev
+      TRANSCODING_API:
+        from_secret: transcoding_api_dev
+      PIPELINE_API:
+        from_secret: pipeline_api_dev
+    when:
+      event: push
+      branch: master
+
+  apply-stg:
+    image: node:10
+    commands:
+      - npm ci
+      - node apply_presets.js
+    environment:
+      NAMESPACE: stg
+      PROVIDERS:
+        from_secret: providers_stg
+      TRANSCODING_API:
+        from_secret: transcoding_api_stg
+      PIPELINE_API:
+        from_secret: pipeline_api_stg
+    when:
+      event: push
+      branch: master
+
+  apply-prd:
+    image: node:10
+    commands:
+      - npm ci
+      - node apply_presets.js
+    environment:
+      NAMESPACE: prd
+      PROVIDERS:
+        from_secret: providers_prd
+      TRANSCODING_API:
+        from_secret: transcoding_api_prd
+      PIPELINE_API:
+        from_secret: pipeline_api_prd
+    when:
+      event: tag
